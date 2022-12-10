@@ -27,7 +27,7 @@ server <- function(input, output){
     summarise(co2, country, year)
     
     co2_change_visualization <-ggplot(co2_change) +
-      geom_col(mapping = (aes(x = year, y = co2, color= "088F8F"))) +
+      geom_col(mapping = (aes(x = year, y = co2))) +
       labs(title = "Carbon Emissions Produced Over Time",
            x = "Year",
            y= "CO2 Produced",

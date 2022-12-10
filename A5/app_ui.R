@@ -12,7 +12,8 @@ intro_page <- tabPanel(
   h2("Introduction"),
   p(em("Alex Chiu A5 INFO 201 12/9/2022")),
   p("These past few months in Seattle, were the most concerning months of climate change for me. My birthday was at the beginning of October and for the first time in my life, I had a birthday that had sunny weather and 70 degree heat. This was one of the most obvious events of climate change and CO2 emissions are a contributing factor. In this report, I decided to analyze how the total carbon emissions produced by each country has changed over time. By visualizing the differences in carbon emissions in each country, we can use this data to see trends to determine what needs to be done about combating global warming. Trends can vary. For example, we can analyze the differences in emissions of low-income countries compared to high- income countries based on this analysis.")
-,)
+,
+  )
 
 # CO2 Change Page
 co2_graph_page <- mainPanel(
